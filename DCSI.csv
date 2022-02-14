@@ -1,22 +1,22 @@
 group,icd10,dcsi
-Ophthalmic_Diabetic_retinopathy,E08[31|32|33|36|37|38|39]|E09[31|32|33|36|37|38|39]|E10[31|32|33|36|37|38|39]|E11[31|32|33|36|37|38|39]|E13[31|32|33|36|37|38|39],1
+Ophthalmic_Diabetic_retinopathy,E08(31|32|33|36|37|38|39)|E09(31|32|33|36|37|38|39)|E10(31|32|33|36|37|38|39)|E11(31|32|33|36|37|38|39)|E13(31|32|33|36|37|38|39),1
 Ophthalmic_Background retinopathy and retinal vascular changes,H350,1
 Ophthalmic_Cystoid macular degeneration,H3535,1
-Ophthalmic_Retinal Haemhorrage,H35[6|8|9],1
+Ophthalmic_Retinal Haemhorrage,H35(6|8|9),1
 Ophthalmic_Retinal Detachment,H33,2
-Ophthalmic_Proliferative Retinopathy,E08[34|35]|E09[34|35]|E10[34|35]|E11[34|35]|E13[34|35],2
+Ophthalmic_Proliferative Retinopathy,E08(34|35)|E09(34|35)|E10(34|35)|E11(34|35)|E13(34|35),2
 Ophthalmic_Blindness and low vision,H54,2
 Ophthalmic_Vitreous Haemhorrage,H431,2
-Renal_Diabetes with renal complications,E08[21|22|29]|E09[21|22|29]|E10[21|22|29]|E11[21|22|29]|E13[21|22|29],1
+Renal_Diabetes with renal complications,E08(21|22|29)|E09(21|22|29)|E10(21|22|29)|E11(21|22|29)|E13(21|22|29),1
 Renal_Acute glumerulonephritis,N00,1
 Renal_Nephrotic syndrome,N04,1
 Renal_Chronic nephritic syndrome,N03,1
 Renal_Unspecified nephritic syndrome,N05,1
-Renal_CKD,N18[1|2|3|9],1
-Renal_CKD severe,N18[4|5|6],2
+Renal_CKD,N18(1|2|3|9),1
+Renal_CKD severe,N18(4|5|6),2
 Renal Failure,N19,2
-Neuro_polyneuropathy,E08[4]|E09[4]|E10[4]|E11[4]|E13[4],1
-Neuro_peripher_autonomic,G90[09|8|9]|G99,1
+Neuro_polyneuropathy,E08(4)|E09(4)|E10(4)|E11(4)|E13(4),1
+Neuro_peripher_autonomic,G90(09|8|9)|G99,1
 Neuro_mononeuritis upper limb,G56,1
 Nuero_mononeuropathies lower limb,G57,1
 Neuro_idiopathic_neuropathy,G609,1
@@ -30,26 +30,26 @@ Neuro_bladder,N319,1
 Neuro_charcot,M316,1
 Neuro_CN_injury,S04,1
 CV_TIA,G45,1
-CV_CVA,I6[1|3|5|6]|I6781,2
-CV_IHD,I2[4|0|5(?!2)],1
-CV_atherosclerosis,170[?!(25|26)],1
-CV_ACS,I2[1|2|3],2
+CV_CVA,I6(1|3|5|6)|I6781,2
+CV_IHD,I2(4|0|5),1
+CV_atherosclerosis,I70,1
+CV_ACS,I2(1|2|3),2
 CV_ACS_old,I252,2
 CV_AF,I48,2
 CV_arrest,I46,2
 CV_paroxysmal tachy,I47,2
 CV_arrythmia,I49,2
 CV_heart failure,I50,2
-CV_athero_native,I702[5|6],2
+CV_athero_native,I702(5|6),2
 CV_AAA,I71,2
-PVD_angiopathy,E08[51|59|621]|E09[51|59|621]|E10[51|59|621]|E11[51|59|621]|E13[51|59|621],1
+PVD_angiopathy,E08(51|59|621)|E09(51|59|621)|E10(51|59|621)|E11(51|59|621)|E13(51|59|621),1
 PVD_LL_aneurysm,I724,1
 PVD_claudication,I7021|I7389|I739,1
 PVD_open foot wound,S913,1
 PVD_gas gangrene,A480,2
 PVD_LL_embolism,I743,2
 PVD_LL_ulcer,L97,2
-PVD_Gangrene,E08[52]|E09[52]|E10[52]|E11[52]|E13[52]|I96,2
-Endo_dka,E08[00|10|649]|E09[00|10|649]|E10[00|10|649]|E11[00|10|649]|E13[00|10|649],1
-Endo_dka_coma,E08[01|11|641]|E09[01|11|641]|E10[01|11|641]|E11[01|11|641]|E13[01|11|641],2
-Endo_complication,E08[610|618|620|622|628|630|638|69|8]|E09[610|618|620|622|628|630|638|69|8]|E11[610|618|620|622|628|630|638|69|8]|E13[610|618|620|622|628|630|638|69|8],2
+PVD_Gangrene,E08(52)|E09(52)|E10(52)|E11(52)|E13(52)|I96,2
+Endo_dka,E08(00|10|649)|E09(00|10|649)|E10(00|10|649)|E11(00|10|649)|E13(00|10|649),1
+Endo_dka_coma,E08(01|11|641)|E09(01|11|641)|E10(01|11|641)|E11(01|11|641)|E13(01|11|641),2
+Endo_complication,E08(610|618|620|622|628|630|638|69|8)|E09(610|618|620|622|628|630|638|69|8)|E11(610|618|620|622|628|630|638|69|8)|E13(610|618|620|622|628|630|638|69|8),2
